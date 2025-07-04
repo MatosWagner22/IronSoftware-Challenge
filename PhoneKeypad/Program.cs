@@ -2,12 +2,12 @@
 
 using PhoneKeypadLib;
 
-Console.WriteLine("Old Phone Keypad Simulator");
-Console.WriteLine("Enter key sequence (end with '#'):");
+string title = "Phone Keypad Simulator\n";
+Console.WriteLine(title.PadLeft(((Console.WindowWidth - title.Length)/2) + title.Length));
+Console.Write("\tEnter key sequence (end with '#'): ");
 
 string input = Console.ReadLine();
-string output = PhoneKeypad.Convert(input);
 
-Console.WriteLine($"Output: {output}");
+Console.WriteLine($"\n\tOutput: {PhoneKeypad.Translate(input)}");
 Console.WriteLine("\nPress any key to exit...");
 Console.ReadKey();
