@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneKeypad", "PhoneKeypad\PhoneKeypad.csproj", "{919941C6-91B7-4927-B475-62C72AA016D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoneKeypad", "PhoneKeypad\PhoneKeypad.csproj", "{919941C6-91B7-4927-B475-62C72AA016D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneKeypadLib", "PhoneKeypadLib\PhoneKeypadLib.csproj", "{49E1674C-1197-47EE-B289-8934562F8060}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PhoneKeypadLib", "PhoneKeypadLib\PhoneKeypadLib.csproj", "{49E1674C-1197-47EE-B289-8934562F8060}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneKeypadTests", "PhoneKeypadTests\PhoneKeypadTests.csproj", "{BE92C968-E44E-4424-B646-E503815BF439}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{49E1674C-1197-47EE-B289-8934562F8060}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49E1674C-1197-47EE-B289-8934562F8060}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49E1674C-1197-47EE-B289-8934562F8060}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE92C968-E44E-4424-B646-E503815BF439}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE92C968-E44E-4424-B646-E503815BF439}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE92C968-E44E-4424-B646-E503815BF439}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE92C968-E44E-4424-B646-E503815BF439}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
